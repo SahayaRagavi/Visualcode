@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR CAFE</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="CR CAFE Logo">
+            <h1>CR CAFE</h1>
+        </div>
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#ContactUs">Contact Us</a>
+            <a href="#AboutUs">About Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="banner.png" alt="CR CAFE Banner">
+        </section>
+        <section id="Home">
+            <h2>Welcome to <strong>CR CAFE</strong></h2>
+           
+        </section>
+        <section id="ContactUs">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mobile">Mobile:</label>
+                <input type="number" id="mobile" name="mobile" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="AboutUs" class="about-us">
+            <div class="best-of-cr">
+                <h3>Best of CR CAFE</h3>
+                <ul>
+                    <li>Veg Puff</li>
+                    <li>Brownie</li>
+                    <li>Cold Coffee</li>
+                    <li>Cakes</li>
+                    <li>Tea</li>
+                    <li>Fresh Juice</li>
+                </ul>
+            </div>
+            <div class="branches">
+                <h3>Our Branches</h3>
+                <ol>
+                    <li>Near NJK Avenue, Thoraipakkam, Chennai, Tamil Nadu,India</li>
+                    <li>Simon Colony, Colachel, Kanyakumari, Tamil Nadu,India</li>
+                </ol>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Explore Our Café</h2>
+            <div class="gallery-images">
+                <img src="image1.png" alt="CR CAFE Coffee">
+                <img src="image2.png" alt="CR CAFE Snacks">
+                <img src="image3.png" alt="CR CAFE Interior">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 CR CAFE. All rights reserved.</p>
+        <p>Follow us on: <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+    </footer>
+</body>
+</html>
